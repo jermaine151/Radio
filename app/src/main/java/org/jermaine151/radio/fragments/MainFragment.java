@@ -72,10 +72,10 @@ public class MainFragment extends Fragment {
         fm.beginTransaction().add(R.id.container_top_row, stationsFragment1).commit();
 
         stationsFragment2 = StationsFragment.newInstance(StationsFragment.STATION_TYPE_RECENT);
-        fm.beginTransaction().add(R.id.container_middle_row, stationsFragment1).commit();
+        fm.beginTransaction().add(R.id.container_middle_row, stationsFragment2).commit();
 
         stationsFragment3 = StationsFragment.newInstance(StationsFragment.STATION_TYPE_PARTY);
-        fm.beginTransaction().add(R.id.container_bottom_row, stationsFragment1).commit();
+        fm.beginTransaction().add(R.id.container_bottom_row, stationsFragment3).commit();
 
         return v;
     }
