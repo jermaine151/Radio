@@ -1,0 +1,86 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="org.jermaine151.radio.fragments.MainFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/station_text_color_dark"
+        android:textSize="25sp"
+        android:text="@string/stationText1"
+        android:paddingTop="12dp"
+        android:paddingLeft="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/station_text_color_light"
+            android:textSize="18sp"
+            android:text="@string/stationText2"
+            android:paddingLeft="12dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container_top_row" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/station_text_color_dark"
+            android:textSize="25sp"
+            android:text="@string/recentText1"
+            android:paddingTop="12dp"
+            android:paddingLeft="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/station_text_color_light"
+            android:textSize="18sp"
+            android:text="@string/recentText2"
+            android:paddingLeft="12dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container_middle_row" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/station_text_color_dark"
+            android:textSize="25sp"
+            android:text="@string/stationText1"
+            android:paddingTop="12dp"
+            android:paddingLeft="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/station_text_color_light"
+            android:textSize="18sp"
+            android:text="@string/stationText2"
+            android:paddingLeft="12dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/container_bottom_row" />
+
+    </LinearLayout>
+
+    </android.support.v4.widget.NestedScrollView>
+
+</FrameLayout>
